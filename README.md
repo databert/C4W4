@@ -14,7 +14,7 @@ In the next step the script 'TidyData.R' is executed, which returns a data frame
 
 Lastly, the tidy data are stored in the local working directory as the file 'tidydata.txt'
 
-B) Script TidyData.R
+B) Script 'TidyData.R'
 
 This script performs all relevant data cleaning, subsetting and processing steps in order to obtain the tidy data set. Its execution requires the existence of the data frame 'full' and 'fature.names'.
 
