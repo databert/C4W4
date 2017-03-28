@@ -1,4 +1,4 @@
-TidyData <- function(){
+TidyData <- function(full, features){
 
 # Make list of feature indices and values that contain mean or std. deviation values
 

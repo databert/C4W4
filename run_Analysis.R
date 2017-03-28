@@ -21,12 +21,11 @@ else{
 # combine data sets
 full<-rbind(train, test)
 
-# read in features from previously loaded files & extract feature names
+# read in features from previously loaded files
 features<-tbl_df(read.table("features.txt", sep=""))
-feature.names<-as.character(features$V2)
 
 # Execute data clean-up script and store result in 'tidy.data'
-tidy.data<<-TidyData()
+tidy.data<<-TidyData(full, features)
 
 #Save tidy data as a text file
 write.table(tidy.data, "tidydata.txt", row.name=FALSE)
