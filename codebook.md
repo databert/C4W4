@@ -29,7 +29,7 @@ vi)   Merging data into final data set
 v)    Tidy data set 'tidy.data'
         The final output data of this data cleaning process are stored in 'tidy.data'.
         It should be noted that only measurements for which both mean and standard deviation values were found in the raw data, are contained in this data set; simply from
-        statistical point of view, mean values for measurement don't have any meaning without a standard deviation value.
+        statistical point of view, mean values for measurements don't have any meaning without a standard deviation value.
         The list below provides a deailed account for the variable names and the row index in the 'tidy.data' set. 
         
 The number corresponds to row index and the text to measurement type
